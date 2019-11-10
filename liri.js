@@ -65,10 +65,14 @@ function log(info) {
 
 //concert-this
 function concertThis() {
-    axios.get("https://rest.bandsintown.com/artists/" + mediaSearch + "/events?app_id=codingbootcamp").then(
+    let concert = mediaSearch;
+    if (!mediaSearch || mediaSearch == undefined) {
+        concert = "Grimes"
+    }
+    axios.get("https://rest.bandsintown.com/artists/" + concert + "/events?app_id=codingbootcamp").then(
         function (response) {
             let info = "\r\n\r\n\r\n*************************"
-                + "\nSee " + mediaSearch.replace(/[^\w\s]/gi, " ") + " at " +
+                + "\nSee " + concert.replace(/[^\w\s]/gi, " ") + " at " +
                 "\n" + JSON.stringify(response.data[0].venue.name).replace(/"/g, "") +
                 "\nin " + JSON.stringify(response.data[0].venue.city).replace(/"/g, "") +
                 ", " + JSON.stringify(response.data[0].venue.region).replace(/"/g, "") +
@@ -87,7 +91,7 @@ function concertThis() {
         });
 }
 function spotifyThisSong() {
-    var song = mediaSearch;
+    let song = mediaSearch;
     if (!mediaSearch || mediaSearch == undefined) {
         song = "The Sign Ace of Base"
     }
