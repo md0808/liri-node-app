@@ -16,9 +16,9 @@ Using the command line, this node application allows users to search for informa
 
 2. From the commandline, navigate to the root folder of the liri-nod-app.
 3. Install the following npm packages:
-     * axios
-     * spotify
-     * moment
+     * [axios](https://www.npmjs.com/package/axios)
+     * [spotify](https://www.npmjs.com/package/node-spotify-api)
+     * [moment](https://www.npmjs.com/package/moment)
 4. You will need API keys for Spotify, which you can create here: https://developer.spotify.com/ . OMDB and Bands In Town keys are provided.
 You will need to create your own keys.js file with the above information. Export the information so it can be read by liri.js. Use .gitignore and .env files to protect your keys. You'll need to install the dotenv npm if you would like to use the .env file to protect your keys (which is recommended).
 
