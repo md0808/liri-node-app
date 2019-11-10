@@ -24,6 +24,8 @@ You will need to create your own keys.js file with the above information. Export
 
 ## Visual Documentation
 
+![liri2](https://user-images.githubusercontent.com/51139840/68537035-23591200-0323-11ea-9f54-9f69c6540f50.gif)
+
 
 
 ## Technologies Used
