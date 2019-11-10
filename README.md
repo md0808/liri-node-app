@@ -15,7 +15,10 @@ Using the command line, this node application allows users to search for informa
  The application begins by determining which database to query by accessing the keyword given by the user. If one of the four predetermined keywords are not used to specify the type of search, Liri let's you know that she doesn't understand. 
 3. Give start-to-finish instructions on how to run the app
 ## Instructions
-1. Clone the github repository by c
+1. Clone the github repository by copying the link above the table of files in the repository.
+
+<img width="630" alt="Screen Shot 2019-11-09 at 7 09 54 PM" src="https://user-images.githubusercontent.com/51139840/68537166-99f70f00-0325-11ea-9a7a-5f13168b0ed3.png">
+
 2. From the commandline, navigate to the root folder of the liri-nod-app.
 3. Install the following npm packages:
      * axios
@@ -25,7 +28,6 @@ You will need to create your own keys.js file with the above information. Export
 
 ## Visual Documentation
 
-![liri2](https://user-images.githubusercontent.com/51139840/68537035-23591200-0323-11ea-9f54-9f69c6540f50.gif)
 
 
 
