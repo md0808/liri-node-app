@@ -12,8 +12,8 @@ Using the command line, this node application allows users to search for informa
 
 ## Functionality Overview:
 
- The application begins by determining which database to query by accessing the keyword given by the user. If one of the four predetermined keywords are not used to specify the type of search, Liri let's you know that she doesn't understand. 
-3. Give start-to-finish instructions on how to run the app
+ The application begins by determining which database to query by accessing the keyword given by the user. If one of the four predetermined keywords are not used to specify the type of search, Liri let's you know that she doesn't understand. If the user types "spotify-this" followed by a song they want to know more about, Liri will use the Spotify API to retrieve information. The keyword "concert-this" followed by your favorite touring artist retrieves information from Bands In Town, and "movie-this" gets answers from OMDB. 
+
 ## Instructions
 1. Clone the github repository by copying the link above the table of files in the repository.
 
